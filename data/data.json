@@ -1,0 +1,626 @@
+[
+    {
+        "name": "Valencia",
+        "location": "Circuit Ricardo Tormo - Valencian Community Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 47,
+        "img": "images/val.svg"
+    },
+    {
+        "name": "Le Mans",
+        "location": "Le Mans",
+        "country": "France",
+        "category": "Year_2020",
+        "score": 100,
+        "img": "images/fra.svg"
+    },
+    {
+        "name": "Barcelona",
+        "location": "Circuit de Barcelona-Catalunya",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 64,
+        "img": "images/cat.svg"
+    },
+    {
+        "name": "Misano",
+        "location": "Misano World Circuit Marco Simoncelli - San Marino and Rimini's Coast Grand Prix",
+        "country": "Italy",
+        "category": "Year_2020",
+        "score": 55,
+        "img": "images/rsm.svg"
+    },
+    {
+        "name": "Jerez",
+        "location": "Circuito de Jerez - Spanish Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 42,
+        "img": "images/spa.svg"
+    },
+    {
+        "name": "Brno",
+        "location": "Automotodrom Brno",
+        "country": "Czech Republic",
+        "category": "Year_2020",
+        "score": 46,
+        "img": "images/CZE.svg"
+    },
+    {
+        "name": "Spielberg",
+        "location": "Red Bull Ring - Austrian Grand Prix",
+        "country": "Austria",
+        "category": "Year_2020",
+        "score": 36,
+        "img": "images/aut.svg"
+    },
+    {
+        "name": "Aragón",
+        "location": "Motorland Aragón - Aragón Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 40,
+        "img": "images/ara.svg"
+    },
+    {
+        "name": "Doha",
+        "location": "Losail International Circuit",
+        "country": "Qatar",
+        "category": "Year_2020",
+        "score": 27,
+        "img": "images/qat.svg"
+    },
+    {
+        "name": "Algarve",
+        "location": "Autódromo Internacional do Algarve",
+        "country": "Portugal",
+        "category": "Year_2020",
+        "score": 32,
+        "img": "images/por.svg"
+    },
+    {
+        "name": "Valencia 2",
+        "location": "Circuit Ricardo Tormo - European Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 61,
+        "img": "images/Ricardo_Tormo_track_map.svg"
+    },
+    {
+        "name": "Misano 2",
+        "location": "Misano World Circuit Marco Simoncelli - Emilia Romagna and Rimini's Coast GP",
+        "country": "Italy",
+        "category": "Year_2020",
+        "score": 61,
+        "img": "images/rsm.svg"
+    },
+    {
+        "name": "Jerez 2",
+        "location": "Circuito de Jerez - Andalusian Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 40,
+        "img": "images/spa.svg"
+    },
+    {
+        "name": "Aragón 2",
+        "location": "Motorland Aragón - Teruel Grand Prix",
+        "country": "Spain",
+        "category": "Year_2020",
+        "score": 36,
+        "img": "images/ara.svg"
+    },
+    {
+        "name": "Spielberg 2",
+        "location": "Red Bull Ring - Styrian Grand Prix",
+        "country": "Austria",
+        "category": "Year_2020",
+        "score": 35,
+        "img": "images/aut.svg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "Valencia",
+        "location": "Circuit Ricardo Tormo",
+        "country": "Spain",
+        "category": "Year_2019",
+        "score": 57,
+        "img": "images/val.svg"
+    },
+    {
+        "name": "Le Mans",
+        "location": "Le Mans",
+        "country": "France",
+        "category": "Year_2019",
+        "score": 90,
+        "img": "images/fra.svg"
+    },
+    {
+        "name": "Barcelona",
+        "location": "Circuit de Barcelona-Catalunya",
+        "country": "Spain",
+        "category": "Year_2019",
+        "score": 73,
+        "img": "images/cat.svg"
+    },
+    {
+        "name": "Misano",
+        "location": "Misano World Circuit Marco Simoncelli",
+        "country": "Italy",
+        "category": "Year_2019",
+        "score": 69,
+        "img": "images/rsm.svg"
+    },
+    {
+        "name": "Phillip Island",
+        "location": "Phillip Island Grand Prix Circuit",
+        "country": "Australia",
+        "category": "Year_2019",
+        "score": 73,
+        "img": "images/phi.jpg"
+    },
+    {
+        "name": "Jerez",
+        "location": "Circuito de Jerez",
+        "country": "Spain",
+        "category": "Year_2019",
+        "score": 57,
+        "img": "images/spa.svg"
+    },
+    {
+        "name": "Motegi",
+        "location": "Twin Ring Motegi",
+        "country": "Japan",
+        "category": "Year_2019",
+        "score": 49,
+        "img": "images/mot.svg"
+    },
+    {
+        "name": "Sachsenring",
+        "location": "Sachsenring",
+        "country": "Germany",
+        "category": "Year_2019",
+        "score": 41,
+        "img": "images/ger.svg"
+    },
+    {
+        "name": "Buriram",
+        "location": "Buriram International Circuit",
+        "country": "Thailand",
+        "category": "Year_2019",
+        "score": 45,
+        "img": "images/bur.svg"
+    },
+    {
+        "name": "Mugello",
+        "location": "Autodromo Internazionale del Mugello",
+        "country": "Italy",
+        "category": "Year_2019",
+        "score": 40,
+        "img": "images/ita.svg"
+    },
+    {
+        "name": "Sepang",
+        "location": "Sepang International Circuit",
+        "country": "Malaysia",
+        "category": "Year_2019",
+        "score": 50,
+        "img": "images/mal.svg"
+    },
+    {
+        "name": "Brno",
+        "location": "Automotodrom Brno",
+        "country": "Czech Republic",
+        "category": "Year_2019",
+        "score": 49,
+        "img": "images/CZE.svg"
+    },
+    {
+        "name": "Spielberg",
+        "location": "Red Bull Ring - Austrian Grand Prix",
+        "country": "Austria",
+        "category": "Year_2019",
+        "score": 34,
+        "img": "images/aut.svg"
+    },
+    {
+        "name": "Aragón",
+        "location": "Motorland Aragón",
+        "country": "Spain",
+        "category": "Year_2019",
+        "score": 15,
+        "img": "images/ara.svg"
+    },
+    {
+        "name": "Assen",
+        "location": "TT Circuit Assen ",
+        "country": "Netherlands",
+        "category": "Year_2019",
+        "score": 55,
+        "img": "images/ned.svg"
+    },
+    {
+        "name": "Doha",
+        "location": "Losail International Circuit",
+        "country": "Qatar",
+        "category": "Year_2019",
+        "score": 51,
+        "img": "images/qat.svg"
+    },
+    {
+        "name": "Texas",
+        "location": "Circuit of the Americas",
+        "country": "America",
+        "category": "Year_2019",
+        "score": 42,
+        "img": "images/ame.svg"
+    },
+    {
+        "name": "Silverstone",
+        "location": "Silverstone Circuit",
+        "country": "England",
+        "category": "Year_2019",
+        "score": 36,
+        "img": "images/gbr.svg"
+    },
+    {
+        "name": "Termas",
+        "location": "Autódromo Termas de Río Hondo",
+        "country": "Argentinia",
+        "category": "Year_2019",
+        "score": 45,
+        "img": "images/arg.svg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "Valencia",
+        "location": "Circuit Ricardo Tormo",
+        "country": "Spain",
+        "category": "Year_2018",
+        "score": 155,
+        "img": "images/val.svg"
+    },
+    {
+        "name": "Le Mans",
+        "location": "Le Mans",
+        "country": "France",
+        "category": "Year_2018",
+        "score": 109,
+        "img": "images/fra.svg"
+    },
+    {
+        "name": "Barcelona",
+        "location": "Circuit de Barcelona-Catalunya",
+        "country": "Spain",
+        "category": "Year_2018",
+        "score": 100,
+        "img": "images/cat.svg"
+    },
+    {
+        "name": "Misano",
+        "location": "Misano World Circuit Marco Simoncelli",
+        "country": "Italy",
+        "category": "Year_2018",
+        "score": 75,
+        "img": "images/rsm.svg"
+    },
+    {
+        "name": "Phillip Island",
+        "location": "Phillip Island Grand Prix Circuit",
+        "country": "Australia",
+        "category": "Year_2018",
+        "score": 69,
+        "img": "images/phi.jpg"
+    },
+    {
+        "name": "Jerez",
+        "location": "Circuito de Jerez",
+        "country": "Spain",
+        "category": "Year_2018",
+        "score": 56,
+        "img": "images/spa.svg"
+    },
+    {
+        "name": "Motegi",
+        "location": "Twin Ring Motegi",
+        "country": "Japan",
+        "category": "Year_2018",
+        "score": 53,
+        "img": "images/mot.svg"
+    },
+    {
+        "name": "Sachsenring",
+        "location": "Sachsenring",
+        "country": "Germany",
+        "category": "Year_2018",
+        "score": 52,
+        "img": "images/ger.svg"
+    },
+    {
+        "name": "Buriram",
+        "location": "Buriram International Circuit",
+        "country": "Thailand",
+        "category": "Year_2018",
+        "score": 51,
+        "img": "images/bur.svg"
+    },
+    {
+        "name": "Mugello",
+        "location": "Autodromo Internazionale del Mugello",
+        "country": "Italy",
+        "category": "Year_2018",
+        "score": 47,
+        "img": "images/ita.svg"
+    },
+    {
+        "name": "Sepang",
+        "location": "Sepang International Circuit",
+        "country": "Malaysia",
+        "category": "Year_2018",
+        "score": 46,
+        "img": "images/mal.svg"
+    },
+    {
+        "name": "Brno",
+        "location": "Automotodrom Brno",
+        "country": "Czech Republic",
+        "category": "Year_2018",
+        "score": 44,
+        "img": "images/CZE.svg"
+    },
+    {
+        "name": "Spielberg",
+        "location": "Red Bull Ring - Austrian Grand Prix",
+        "country": "Austria",
+        "category": "Year_2018",
+        "score": 39,
+        "img": "images/aut.svg"
+    },
+    {
+        "name": "Aragón",
+        "location": "MotorLand Aragón",
+        "country": "Spain",
+        "category": "Year_2018",
+        "score": 36,
+        "img": "images/ara.svg"
+    },
+    {
+        "name": "Assen",
+        "location": "TT Circuit Assen ",
+        "country": "Netherlands",
+        "category": "Year_2018",
+        "score": 34,
+        "img": "images/ned.svg"
+    },
+    {
+        "name": "Doha",
+        "location": "Losail International Circuit",
+        "country": "Qatar",
+        "category": "Year_2018",
+        "score": 31,
+        "img": "images/qat.svg"
+    },
+    {
+        "name": "Texas",
+        "location": "Circuit of the Americas",
+        "country": "America",
+        "category": "Year_2018",
+        "score": 30,
+        "img": "images/ame.svg"
+    },
+    {
+        "name": "Silverstone",
+        "location": "Silverstone Circuit",
+        "country": "England",
+        "category": "Year_2018",
+        "score": 30,
+        "img": "images/gbr.svg"
+    },
+    {
+        "name": "Termas",
+        "location": "Autódromo Termas de Río Hondo",
+        "country": "Argentinia",
+        "category": "Year_2018",
+        "score": 20,
+        "img": "images/arg.svg"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        "name": "Valencia",
+        "location": "Circuit Ricardo Tormo",
+        "country": "Spain",
+        "category": "Year_2017",
+        "score": 71,
+        "img": "images/val.svg"
+    },
+    {
+        "name": "Le Mans",
+        "location": "Le Mans",
+        "country": "France",
+        "category": "Year_2017",
+        "score": 94,
+        "img": "images/fra.svg"
+    },
+    {
+        "name": "Barcelona",
+        "location": "Circuit de Barcelona-Catalunya",
+        "country": "Spain",
+        "category": "Year_2017",
+        "score": 42,
+        "img": "images/cat.svg"
+    },
+    {
+        "name": "Misano",
+        "location": "Misano World Circuit Marco Simoncelli",
+        "country": "Italy",
+        "category": "Year_2017",
+        "score": 140,
+        "img": "images/rsm.svg"
+    },
+    {
+        "name": "Phillip Island",
+        "location": "Phillip Island Grand Prix Circuit",
+        "country": "Australia",
+        "category": "Year_2017",
+        "score": 86,
+        "img": "images/phi.jpg"
+    },
+    {
+        "name": "Jerez",
+        "location": "Circuito de Jerez",
+        "country": "Spain",
+        "category": "Year_2017",
+        "score": 62,
+        "img": "images/spa.svg"
+    },
+    {
+        "name": "Motegi",
+        "location": "Twin Ring Motegi",
+        "country": "Japan",
+        "category": "Year_2017",
+        "score": 87,
+        "img": "images/mot.svg"
+    },
+    {
+        "name": "Sachsenring",
+        "location": "Sachsenring",
+        "country": "Germany",
+        "category": "Year_2017",
+        "score": 44,
+        "img": "images/ger.svg"
+    },
+    {
+        "name": "Mugello",
+        "location": "Autodromo Internazionale del Mugello",
+        "country": "Italy",
+        "category": "Year_2017",
+        "score": 28,
+        "img": "images/ita.svg"
+    },
+    {
+        "name": "Sepang",
+        "location": "Sepang International Circuit",
+        "country": "Malaysia",
+        "category": "Year_2017",
+        "score": 64,
+        "img": "images/mal.svg"
+    },
+    {
+        "name": "Brno",
+        "location": "Automotodrom Brno",
+        "country": "Czech Republic",
+        "category": "Year_2017",
+        "score": 64,
+        "img": "images/CZE.svg"
+    },
+    {
+        "name": "Spielberg",
+        "location": "Red Bull Ring - Austrian Grand Prix",
+        "country": "Austria",
+        "category": "Year_2017",
+        "score": 50,
+        "img": "images/aut.svg"
+    },
+    {
+        "name": "Aragón",
+        "location": "MotorLand Aragón",
+        "country": "Spain",
+        "category": "Year_2017",
+        "score": 37,
+        "img": "images/ara.svg"
+    },
+    {
+        "name": "Assen",
+        "location": "TT Circuit Assen ",
+        "country": "Netherlands",
+        "category": "Year_2017",
+        "score": 91,
+        "img": "images/ned.svg"
+    },
+    {
+        "name": "Doha",
+        "location": "Losail International Circuit",
+        "country": "Qatar",
+        "category": "Year_2017",
+        "score": 42,
+        "img": "images/qat.svg"
+    },
+    {
+        "name": "Texas",
+        "location": "Circuit of the Americas",
+        "country": "America",
+        "category": "Year_2017",
+        "score": 62,
+        "img": "images/ame.svg"
+    },
+    {
+        "name": "Silverstone",
+        "location": "Silverstone Circuit",
+        "country": "England",
+        "category": "Year_2017",
+        "score": 32,
+        "img": "images/gbr.svg"
+    },
+    {
+        "name": "Termas",
+        "location": "Autódromo Termas de Río Hondo",
+        "country": "Argentinia",
+        "category": "Year_2017",
+        "score": 30,
+        "img": "images/arg.svg"
+    }
+
+ ]

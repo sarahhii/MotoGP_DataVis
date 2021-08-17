@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Hilz, Sarah, Student, Data Viszualisation" />
+    <meta name="description" content="MotoGP data viszualisation by Sarah Hilz" />
+    <meta name="author" content="Sarah Hilz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+
+
+    <!-- local css -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Lusitana:wght@400;700&family=Open+Sans:wght@300&family=Prata&display=swap" rel="stylesheet">
+
+    <script src=" https://use.fontawesome.com/fce2f9e719.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/dhl1rvc.css">
+    <title>Sarah Hilz | Data Visualisation 2</title>
+
+</head>
+
+<body id=body class="">
+
+
+    <div id="mainDiv"><h1>MotoGP crashes</h1>
+        <h2>Animated line chart</h2>
+        <p class="introText">
+            Which circuit witnessed the most crashes and how does it compare to previous years?<br> <br>In the following data visualisation you'll see the amount of crashes per circuit and year visualized in lines. On the x-axis you'll find the year, on the y-axis the number of crashes. Each circuit has it's own color. <br> <br> By hovering above the points on the line graph you can find even more information, like the year, the circuit and the exact number of crashes that year.<br><br>If a circuit has no point in some year it means that no race took place on that circuit that year.<br>
+
+        </p>
+    </div>
+
+
+
+    <div class="">
+        <div class="">
+
+            <div class="chart-container" style="position: relative;">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="linePageDiv2">
+        <p class="">Do you want to see a different approach?<br> <br>
+            Let's look at the data visualized as a bubble chart and compare the circuits and years there.
+
+        </p>
+        <button id="subpageBtn" class="btn-lg"><a href="bubbleVis.html"> <i class="fa fa-angle-double-right arrow" style="color: black"></i>
+                see bubble chart</a></button>
+    </div>
+
+
+
+
+
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- local JS -->
+    <script src="scripts/lineGraph.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+    <footer class="footer-distributed">
+        <hr class="footerHR">
+
+        <div class="footer-right">
+            <a href="https://www.linkedin.com/in/sarah-hilz-689389149/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.xing.com/profile/Sarah_Hilz4/cv"><i class="fa fa-xing"></i></a>
+            <a href="https://www.behance.net/sarah_hilz"><i class="fa fa-behance"></i></a>
+        </div>
+
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+                <a href="#">Impress</a> <span class="copyright"> &copy; 2021 Sarah Hilz</span>
+            </p>
+
+        </div>
+
+    </footer>
+</body></html>

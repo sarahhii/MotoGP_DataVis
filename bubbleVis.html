@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Hilz, Sarah, Student, Data Viszualisation" />
+    <meta name="description" content="MotoGP data viszualisation by Sarah Hilz" />
+    <meta name="author" content="Sarah Hilz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Lusitana:wght@400;700&family=Open+Sans:wght@300&family=Prata&display=swap" rel="stylesheet">
+
+    <!-- local css -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bubblestyles.css" />
+
+    <script src=" https://use.fontawesome.com/fce2f9e719.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/dhl1rvc.css">
+    <title>MotoGP Data Visualisation 1</title>
+</head>
+
+<body>
+    <h1>MotoGP Crashes</h1>
+    <h2>Bubble Chart</h2>
+    <!--- Where my datavis will be inserted --->
+
+    <div id="mainDiv">
+        <p class="introText">
+            In the following data visualisation you'll see the amount of crashes per circuit and year visualized in bubbles. The size of the bubble depends on the amount of crashes, the color shows the year. <br> <br> By hovering above the bubbles you can find even more information, like the year and the layout of the circuit.<br>
+
+        </p>
+    </div>
+
+
+    <div class="arrowDiv container bubbleLegend" id="arrowDiv1">
+        <span class="dot" id="dot1"></span>
+        <div class="btndiv">
+            <p>Crashes in 2020</p>
+        </div>
+        <span class="dot" id="dot2"></span>
+        <div class="btndiv">
+            <p>Crashes in 2020</p>
+        </div>
+        <span class="dot" id="dot3"></span>
+        <div class="btndiv">
+            <p>Crashes in 2020</p>
+        </div>
+        <span class="dot" id="dot4"></span>
+        <div class="btndiv">
+            <p>Crashes in 2020</p>
+        </div>
+    </div>
+
+
+    <div class="arrowDiv container bubbleLegend" id="arrowDiv1">
+        <i class="fa fa-angle-double-right arrow"></i>
+        <div class="btndiv">
+            <button id="graphBtn" class="btn-lg arrowBtn">
+                start the graph
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <svg id="bubble-chart"></svg>
+    <div class="tooltip">
+        <img alt="" />
+        <div>
+            <a></a>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="" id="hidden">
+        <p class="">Do you want to see a different approach?<br> <br>
+            Let's look at the data split up in a line graph and compare the circuits and years there.
+
+        </p>
+        <button id="subpageBtn" class="btn-lg"><a href="lineGraph.html"> <i class="fa fa-angle-double-right arrow" style="color: black"></i>
+                see line chart</a></button>
+    </div>
+
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="scripts/bubble.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+
+    <footer class="footer-distributed">
+        <hr class="footerHR">
+
+        <div class="footer-right">
+            <a href="https://www.linkedin.com/in/sarah-hilz-689389149/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.xing.com/profile/Sarah_Hilz4/cv"><i class="fa fa-xing"></i></a>
+            <a href="https://www.behance.net/sarah_hilz"><i class="fa fa-behance"></i></a>
+        </div>
+
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+                <a href="#">Impress</a> <span class="copyright"> &copy; 2021 Sarah Hilz</span>
+            </p>
+
+        </div>
+
+    </footer>
+</body></html>

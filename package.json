@@ -1,0 +1,18 @@
+/*can be deleted???
+
+> For this project, we are going to read in the data that we'll use from a JSON file. In order to do that, you will have to set up a webserver. I recommend using the http-server module. You can get it installed globally by running npm i -g http-server. Then run npm init -y to generate an empty npm project with the default.
+
+*/
+
+{
+    "name": "d3-bubble",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -o"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

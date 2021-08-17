@@ -1,0 +1,100 @@
+/* --- Styles for Bubble chart subpage --- */
+
+/* --- text inside of bubbles --- */
+text {
+    text-anchor: middle;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.classTest {
+    font-weight: 400;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+}
+
+circle {
+    cursor: pointer;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear
+}
+
+img {
+    width: 300px;
+}
+
+span {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Bubble Legend */
+
+.bubbleLegend{
+    margin-left: 0;
+    }
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#dot1{
+    margin-left: 0; }
+.Year_2020, #dot1 {
+    background: #64FFCF;
+}
+
+.Year_2019, #dot2 {
+    background: #64DFDF;
+}
+
+.Year_2018, #dot3 {
+    background: #5E60CE;
+}
+
+.Year_2017, #dot4 {
+    background: #7400B8;
+}
+
+#graphBtn{
+        margin-top: 0;
+
+}
+
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: #111;
+    display: flex;
+    font-family: sans-serif;
+    max-width: 500px;
+
+}
+
+.tooltip div {
+    padding: 10px;
+}
+
+svg {
+    margin: 0px;
+}
+
+
+
+
+#hidden {
+    max-width: 50vw;
+    margin-top: 5vh;
+    visibility: hidden;
+}
