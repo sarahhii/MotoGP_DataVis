@@ -24,7 +24,7 @@
   const Quatar = [31, 37, 32, 34, 49, 39, 48, 42, 31, 51, 27];
   const Texas = [, , , 46, 56, 71, 44, 62, 30, 42, ];
   const Silverstone = [42, 49, 47, 50, 42, 79, 68, 32, 30, 36, ];
-  const TermasdeRíoHondoArgentinia = [, , , ,36, 25, 45, 30, 20, 45, ];
+  const TermasdeRíoHondoArgentinia = [, , , , 36, 25, 45, 30, 20, 45, ];
   const Indianapolis = [70, 45, 45, 37, 48, 46, , , , , ];
   const LagunaSeca = [8, 11, 14, 11, , , , , , , ];
   const Estoril = [130, 68, 40, , , , , , , , ];
@@ -52,168 +52,224 @@
               backgroundColor: '#ff14ff',
               borderColor: '#ff14ff',
               data: Valencia,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[1],
               backgroundColor: 'rgb(25, 25, 132)',
               borderColor: 'rgb(25, 25, 132)',
               data: LeMans,
-                },
+              borderWidth: '2',
+              pointHoverRadius: '8',
+          },
           {
               label: labels[2],
               backgroundColor: 'rgb(66, 25, 66)',
               borderColor: 'rgb(66, 25, 66)',
               data: Barcelona,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[3],
               backgroundColor: 'rgb(25, 250, 132)',
               borderColor: 'rgb(25, 250, 132)',
               data: Misano,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[4],
               backgroundColor: '#edff14',
               borderColor: '#edff14',
               data: PhillipIsland,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[5],
               backgroundColor: 'rgb(25, 25, 60)',
               borderColor: 'rgb(25, 25, 60)',
               data: Jerez,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[6],
               backgroundColor: '#F38BA0',
               borderColor: '#F38BA0',
               data: Motegi,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[7],
               backgroundColor: '#B5EAEA',
               borderColor: '#B5EAEA',
               data: Sachsenring,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[8],
               backgroundColor: 'rgb(5, 130, 110)',
               borderColor: 'rgb(5, 130, 110)',
               data: BuriramThailand,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[9],
               backgroundColor: 'rgb(180, 25, 58)',
               borderColor: 'rgb(180, 25, 58)',
               data: Mugello,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[10],
               backgroundColor: '#ff148f',
               borderColor: '#ff148f',
               data: Sepang,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[11],
               backgroundColor: 'rgb(140, 25, 140)',
               borderColor: 'rgb(140, 25, 140)',
               data: Brno,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[12],
               backgroundColor: 'rgb(9, 88, 58)',
               borderColor: 'rgb(9, 88, 58)',
               data: Spielberg,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[13],
               backgroundColor: 'rgb(55, 3, 58)',
               borderColor: 'rgb(55, 3, 58)',
               data: Aragon,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[14],
               backgroundColor: '#14dbff',
               borderColor: '#14dbff',
               data: Assen,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[15],
               backgroundColor: '#39ff14',
               borderColor: '#39ff14',
               data: Quatar,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[16],
               backgroundColor: '#ff7214',
               borderColor: '#ff7214',
               data: Texas,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[17],
               backgroundColor: 'rgb(160, 10, 58)',
               borderColor: 'rgb(160, 10, 58)',
               data: Silverstone,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[18],
               backgroundColor: 'rgb(60, 40, 90)',
               borderColor: 'rgb(60, 40, 90)',
               data: TermasdeRíoHondoArgentinia,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[19],
               backgroundColor: 'rgb(18, 66, 58)',
               borderColor: 'rgb(18, 66, 58)',
               data: Indianapolis,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[20],
               backgroundColor: 'rgb(60, 140, 180)',
               borderColor: 'rgb(60, 140, 180)',
               data: LagunaSeca,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
               label: labels[21],
               backgroundColor: '#caffbf',
               borderColor: '#caffbf',
               data: Estoril,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[24],
+              label: labels[22],
               backgroundColor: 'rgb(160, 140, 58)',
               borderColor: 'rgb(160, 140, 58)',
               data: AlgarvePortugal,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[25],
+              label: labels[23],
               backgroundColor: 'rgb(60, 11, 158)',
               borderColor: 'rgb(60, 11, 158)',
               data: CircuitRicardoTormo,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[26],
+              label: labels[24],
               backgroundColor: 'rgb(60, 11, 58)',
               borderColor: 'rgb(60, 11, 58)',
               data: Misano2,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[27],
+              label: labels[25],
               backgroundColor: 'rgb(22, 140, 58)',
               borderColor: 'rgb(22, 140, 58)',
               data: Jerez2,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[28],
+              label: labels[26],
               backgroundColor: 'rgb(60, 88, 58)',
               borderColor: 'rgb(60, 88, 58)',
               data: Aragon2,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 },
           {
-              label: labels[29],
+              label: labels[27],
               backgroundColor: 'rgb(60, 140, 77)',
               borderColor: 'rgb(60, 140, 77)',
               data: Spielberg2,
+              borderWidth: '2',
+              pointHoverRadius: '8',
                 }
 
             ]
@@ -240,9 +296,9 @@
 
           animations: {
               tension: {
-                  duration: 1000,
-                  easing: 'linear',
-                  from: 1,
+                  duration: 5000,
+                  easing: 'easeOutBack',
+                  from: 0.5,
                   to: 0,
                   loop: true
               }
@@ -263,6 +319,7 @@
   var myChart = new Chart(
       document.getElementById('myChart'),
       config
+
   );
 
 
