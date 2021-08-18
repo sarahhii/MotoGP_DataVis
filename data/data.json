@@ -343,7 +343,7 @@
         "country": "Australia",
         "category": "Year_2018",
         "score": 69,
-        "img": "images/phi.jpg"
+        "img": "images/phi.svg"
     },
     {
         "name": "Jerez",
@@ -516,7 +516,7 @@
         "country": "Australia",
         "category": "Year_2017",
         "score": 86,
-        "img": "images/phi.jpg"
+        "img": "images/phi.svg"
     },
     {
         "name": "Jerez",
