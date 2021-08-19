@@ -124,3 +124,19 @@ svg {
     margin-top: 5vh;
     visibility: hidden;
 }
+
+
+
+
+
+
+
+
+/* FOOTER*/
+
+/* Footer links */
+
+
+p.footer-links > span {
+        display: inline-block;
+}
