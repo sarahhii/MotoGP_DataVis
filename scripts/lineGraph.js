@@ -35,10 +35,7 @@
   const Aragon2 = [, , , , , , , , , , 36];
   const Spielberg2 = [, , , , , , , , , , 35];
 
-
-
-  const years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-
+  const years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020];
 
   const labels = [
             'Valencia', 'Le Mans', 'Barcelona', 'Misano', 'Phillip Island', 'Jerez', 'Motegi', 'Sachsenring', 'Buriram', 'Mugello', 'Sepang', 'Brno', 'Austria', 'Aragon', 'Assen', 'Quatar', 'Texas', 'Silverstone', 'Termas de Rio Hondo', 'Indianapolis', 'Laguna Seca', 'Estoril', 'Algarve', 'Ricardo Tormo', 'Misano 2', 'Jerez 2', 'Aragon 2', 'Spielberg 2'
@@ -280,7 +277,6 @@
       type: 'line',
       data,
       options: {
-
           plugins: {
               legend: {
                   labels: {
@@ -303,15 +299,13 @@
                   loop: true
               }
           },
+          
           scales: {
-
               y: { // defining min and max so hiding the dataset does not change scale range
-
                   min: 0,
                   max: 160
               }
           }
-
       }
   };
 
@@ -325,12 +319,3 @@
 
   //see details in console
   console.log(Chart.defaults.labels);
-
-
-
-
-
-
-
-
-

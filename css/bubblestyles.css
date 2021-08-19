@@ -38,23 +38,18 @@ span {
 .countrySpan, .locationSpan, .crashSpan{
     font-weight:300;
 }
-
 .yearSpan::before {
     content: " 📅 ";
 }
-
 .crashSpan::before {
     content: " ❌ Crashes: ";
 }
-
 .countrySpan::before {
     content: " 🌎 Country: ";
 }
-
 .locationSpan::before {
     content: " 🏁 Circuit name: ";
 }
-
 
 /* Tooltip */
 .tooltip {

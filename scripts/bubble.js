@@ -1,10 +1,10 @@
-// JS in whcih the bubbles are created
+// JS in which the bubbles are created
 
 const file = 'data/data.json';
 const width = window.innerWidth;
 const height = window.innerHeight;
 
-//colors per year
+// colors per year
 const colors = {
     Year_2020: '#64FFCF',
     Year_2019: '#64DFDF',
@@ -21,10 +21,12 @@ const generateChart = data => {
         }).sum(d => d.score));
 
     const svg = d3.select('#bubble-chart')
+        //width & height depending on window size
         .style('width', width)
         .style('height', height);
 
     const root = bubble(data);
+    //html element with class tooltip
     const tooltip = d3.select('.tooltip');
 
     const node = svg.selectAll()
@@ -39,16 +41,18 @@ const generateChart = data => {
 
         //hover showing more details
         .on('mouseover', function (e, d) {
+            //circuit image
             tooltip.select('img').attr('src', d.data.img);
+            //circuit name with colored BG by adding the class
             tooltip.select('a').attr('class', d.data.category).text(d.data.name);
-
+            //appending details like year, crashes, location and country 
             tooltip.select('span.yearSpan').text(d.data.category);
-                        tooltip.select('span.crashSpan').text(d.data.score);
+            tooltip.select('span.crashSpan').text(d.data.score);
             tooltip.select('span.locationSpan').text(d.data.location);
             tooltip.select('span.countrySpan').text(d.data.country);
-
+            //visible when hovering
             tooltip.style('visibility', 'visible');
-            //stroke when hovering
+            //stroke when hovering just black
             d3.select(this).style('stroke', '#000');
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
