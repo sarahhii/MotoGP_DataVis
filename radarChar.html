@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Hilz, Sarah, Student, Data Viszualisation" />
+    <meta name="description" content="MotoGP data viszualisation by Sarah Hilz" />
+    <meta name="author" content="Sarah Hilz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+
+
+    <!-- local css -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Lusitana:wght@400;700&family=Open+Sans:wght@300&family=Prata&display=swap" rel="stylesheet">
+
+    <script src=" https://use.fontawesome.com/fce2f9e719.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/dhl1rvc.css">
+    <title>Sarah Hilz | Data Visualisation 2</title>
+
+</head>
+
+<body id=body class="">
+
+
+    <div id="mainDiv">
+        <h1>MotoGP crashes</h1>
+        <h2>Radar chart</h2>
+        <p class="introText">
+            Which rider earned the most points and how does it compare to previous years? And who had the most crashes? And most importantly, is there a correlation between Championship points and crashes?<br> <br>In the following data visualisations you'll see the amount of championship points and crashes per rider and year visualized in a radar chart. Each rider has it's own color. The graph shows the 5 riders that made the most points over the last 10 years.<br> <br> By hovering above the end points on the radar graph you can see the exact number of points or crashes that year.<br><br>If a rider has no points or crashes in some year it means that the rider did not participate in the championship that year.<br>
+
+        </p>
+    </div>
+    <h2 class="h2center">Championship Points</h2>
+    <canvas id="radar-chart" style="position: relative;"></canvas>
+
+    <h2 class="h2center">Crashes</h2>
+
+    <canvas id="radar-chart2" style="position: relative;"></canvas>
+
+
+
+
+    <div class="" id="linePageDiv2">
+        <p class="">Do you want to see a different approach?<br> <br>
+            Let's look at the crash data per circuit visualized as a bubble chart and compare the circuits and years there.<br> Or would you rather compare the crashes per circuit in a line chart?
+        </p>
+        
+        
+        <div class="arrowDiv container" id="arrowDiv1">
+            <i class="fa fa-angle-double-right arrow"></i>
+            <div class="btndiv">
+                <button id="Btn1" class="btn-lg arrowBtn">
+                    <a href="bubbleVis.html">crashes per circuit - bubble chart</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="arrowDiv container">
+            <i class="fa fa-angle-double-right arrow"></i>
+            <div class="btndiv">
+                <button id="Btn2" class="btn-lg arrowBtn">
+                    <a href="linegraph.html">crashes per circuit - line chart</a>
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- local JS -->
+    <script src="scripts/radarChar.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+    <footer class="footer-distributed">
+        <hr class="footerHR">
+
+        <div class="footer-right">
+            <a href="https://www.linkedin.com/in/sarah-hilz-689389149/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.xing.com/profile/Sarah_Hilz4/cv"><i class="fa fa-xing"></i></a>
+            <a href="https://www.behance.net/sarah_hilz"><i class="fa fa-behance"></i></a>
+        </div>
+
+
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="index.html">Home</a>
+                <a href="impress.html">Impress</a> <span class="copyright"> &copy; 2021 Sarah Hilz</span>
+            </p>
+
+        </div>
+
+    </footer>
+</body></html>
