@@ -140,3 +140,16 @@ svg {
 p.footer-links > span {
         display: inline-block;
 }
+
+
+
+@media only screen and (max-width: 900px) {
+   #hidden {
+        max-width: 100vw;
+
+    }
+
+
+}
+
+
