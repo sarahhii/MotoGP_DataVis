@@ -226,17 +226,36 @@ a {
 }
 
 
-#subpageBtn2{margin-left: 40px;}
+#subpageBtn2 {
+    margin-left: 40px;
+}
 
 
 /* RADAR CHART */
-#radar-chart, #radar-chart2, #radar-chart3 {
+#radar-chart,
+#radar-chart2,
+#radar-chart3 {
     margin-top: 20px;
     max-height: 90vh;
 }
 
 
-.h2center{
-    text-align: center; margin-top: 100px;
+.h2center {
+    text-align: center;
+    margin-top: 100px;
 }
 
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 900px) {
+
+    #mainDiv {
+        max-width: 100vw;
+
+    }
+
+
+}

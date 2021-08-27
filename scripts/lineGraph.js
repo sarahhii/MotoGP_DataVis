@@ -277,8 +277,8 @@
       type: 'line',
       data,
       options: {
-          plugins: {
-              legend: {
+          plugins: { 
+              legend: { 
                   labels: {
                       // This more specific font property overrides the global property
                       color: 'white',
